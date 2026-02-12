@@ -233,9 +233,6 @@ img {
   box-shadow: 0 5px 32px var(--first-color);
 }
 
-/* Active link */
-
-
 /*=============== HOME ===============*/
 .home__container{
   row-gap: 4rem;
@@ -439,10 +436,6 @@ img {
   pointer-events: initial;
 }
 
-
-/*=============== RESUME ===============*/
-
-
 /*=============== CONTACT ===============*/
 .contact__container{
   row-gap: 4rem;
@@ -483,17 +476,6 @@ img {
 
   font-size: var(--font-medium);
 }
-/*=============== FOOTER ===============*/
-
-
-/*=============== SCROLL BAR ===============*/
-
-
-/*=============== SCROLL UP ===============*/
-
-
-/* Show Scroll Up */
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
@@ -569,9 +551,4 @@ img {
 .home__img, .about__img{
   width: 340px;
 }
-
-
-
 }
-
-/* For 2K resolutions (2048 x 1152, 2048 x 1536) */
