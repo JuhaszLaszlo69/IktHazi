@@ -60,3 +60,16 @@ const sendEmail = (e)=>{
 );
 
 }
+
+/* messeg */
+function uzenetKuldes(){
+    window.alert('The messeg was sent sucsesfuly.')
+}
+
+/* dark and light */
+/*This helped: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp*/
+
+function darkAndLight(){
+    const body = document.body
+    body.classList.toggle("lightMode")
+}

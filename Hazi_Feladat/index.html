@@ -159,7 +159,7 @@
                   <input placeholder="Name" type="text" name="user_name" class="contact__input">
                   <input placeholder="Email" name="user_email" class="contact__input">
                   <textarea placeholder="Write your message here..." class="contact__input contact__area" name="user_message"></textarea>
-                  <button type="submit" class="button">Send message</button>
+                  <input type="button" class="button" value="Send message" onclick="uzenetKuldes()">
                   <p class="contact__message" id="contact-message"></p>
                </form>
                <div class="contact__content grid">
@@ -172,6 +172,12 @@
                </div>
             </div>
          </section>
+
+         <footer>
+            <form>
+               <input type="button" value="Dark and light mode switch" onclick="darkAndLight()" class="button">
+            </form>
+         </footer>
       </main>
 
       <!--=============== SCROLLREVEAL ===============-->

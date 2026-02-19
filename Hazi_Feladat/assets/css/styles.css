@@ -476,6 +476,11 @@ img {
 
   font-size: var(--font-medium);
 }
+/*Dark and light*/
+.lightMode{
+  background-color: white;
+  color: darkgrey;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
